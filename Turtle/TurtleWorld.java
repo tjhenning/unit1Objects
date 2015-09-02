@@ -27,19 +27,19 @@ public class TurtleWorld
         turtle2.setHeight(40);
         while (100*Math.pow(sevenf, multi)>1){
             //turtle.forward(100*Math.pow(sevenf, multi));
-        turtle.setShellColor(Color.GREEN);
-        Thread.sleep(10);
-        turtle.forward(100);
-        turtle.turnRight();
-        turtle.setShellColor(Color.BLUE);
-        Thread.sleep(10);
-        turtle.forward(100);
-        turtle.turnLeft();
-        turtle.setShellColor(Color.RED);
-        Thread.sleep(10);
-        turtle.forward(100);
-        turtle.turnRight();
-        turtle2.turnLeft();
+            turtle.setShellColor(Color.GREEN);
+            Thread.sleep(10);
+            turtle.forward(100);
+            turtle.turnRight();
+            turtle.setShellColor(Color.BLUE);
+            Thread.sleep(10);
+            turtle.forward(100);
+            turtle.turnLeft();
+            turtle.setShellColor(Color.RED);
+            Thread.sleep(10);
+            turtle.forward(100);
+            turtle.turnRight();
+            turtle2.turnLeft();
             //multi= multi+1f;
         }
         
